@@ -1,8 +1,6 @@
-# Winner! of Flipkart_IISc_Hackathon
+# Winner!!  of Flipkart IISc Hackathon 2021
 
-## Attribute Extraction from text
-
-# Objective
+# Objective : Attribute Extraction from text
 Given product description, the model should tag any attribute values by their corresponding tags.
 
 eg : <br />
@@ -14,5 +12,14 @@ Desired Output  &nbsp; &nbsp; &nbsp; &nbsp; : `"O" "B_BRAND" "O" "O" "O" "O" "B_
 - This preprocessed input was fed to a BiDirectional LSTM model to train it for Named Entity Recognition task.
 
 
-*Kindly refer to report.pdf for a detailed approach*
+*Kindly refer to **report.pdf** for a detailed approach*
+
+
+# Scores on Held out validation set:
+
+| Precision        | Recall           | F1-Score  |
+| ------------- |:-------------:| -----:|
+| micro avg     | 0.50 |  0.38 |   0.43 | 
+| macro avg     | 0.23 |  0.18 | 0.18   |
+| weighted avg   |0.62 |  0.38 | 0.44  |
 
