@@ -17,8 +17,8 @@ Desired Output  &nbsp; &nbsp; &nbsp; &nbsp; : `"O" "B_BRAND" "O" "O" "O" "O" "B_
 
 # Scores on Held out validation set:
 
-| Precision        | Recall           | F1-Score  |
-| ------------- |:-------------:| -----:|
+| Avg |Precision | Recall | F1-Score  |
+| --------|----- |:-------------:| -----:|
 | micro avg     | 0.50 |  0.38 |   0.43 | 
 | macro avg     | 0.23 |  0.18 | 0.18   |
 | weighted avg   |0.62 |  0.38 | 0.44  |
