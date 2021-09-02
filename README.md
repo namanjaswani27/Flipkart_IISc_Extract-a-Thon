@@ -8,7 +8,7 @@ Product Description : `This Nike T-shirt is available in blue.`<br />
 Desired Output  &nbsp; &nbsp; &nbsp; &nbsp; : `"O" "B_BRAND" "O" "O" "O" "O" "B_COLOR"` <br />
 
 # Brief Approach
-- Given Attribute-value pairs for all 5 categories [Accessories, Bottom Wear, Foot Wear, Top Wear, Full Wear], the input product descriptions were labeled
+- Given Attribute-value pairs for all 5 categories [Accessories, Bottom Wear, Foot Wear, Top Wear, Full Wear], the input product descriptions were labeled using `Distant Supervision`
 - This preprocessed input was fed to a BiDirectional LSTM model to train it for Named Entity Recognition task.
 
 
